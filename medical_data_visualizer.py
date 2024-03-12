@@ -29,6 +29,7 @@ def draw_cat_plot():
 
 
     # Do not modify the next two lines
+    fig = fig.figure
     fig.savefig('catplot.png')
     return fig
 
